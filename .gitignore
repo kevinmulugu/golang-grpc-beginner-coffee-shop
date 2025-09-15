@@ -1,0 +1,46 @@
+# Binaries and executables
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Go build output
+/build/
+/bin/
+
+# Generated protocol buffer files (should be tracked)
+!coffeshop_protos/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# IDE/editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Dependency directories
+vendor/
+
+# Go modules cache
+/go.sum
+
+# Test cache
+*.coverprofile
+*.testresult
+
+# Ignore everything in coffeshop_protos except tracked files
+coffeshop_protos/*
+!coffeshop_protos/*.go
+
+# Ignore client/server executables
+client/client
+server
