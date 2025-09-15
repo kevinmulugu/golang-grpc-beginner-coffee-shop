@@ -16,7 +16,7 @@ This is a simple Go project demonstrating a menu ordering system using gRPC. It 
 
 1. **Clone the repository**
    ```sh
-   git clone <your-repo-url>
+   git clone git@github.com:kevinmulugu/golang-grpc-beginner-coffee-shop.git go-proto-example
    cd go-proto-example
    ```
 
